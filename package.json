@@ -1,0 +1,25 @@
+{
+  "name": "feb24-t3w1-intro-to-node",
+  "version": "1.0.0",
+  "description": "some cool project, this lets us roll dice in terminal",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "forest": "some command --arguement run"
+  },
+  "keywords": [
+    "dice",
+    "kevin",
+    "cool",
+    "yay"
+  ],
+  "author": "Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "10.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
