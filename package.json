@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "forest": "some command --arguement run"
+    "docs": "jsdoc ./src/*"
   },
   "keywords": [
     "dice",
@@ -20,6 +20,7 @@
     "inquirer": "10.1.8"
   },
   "devDependencies": {
+    "jsdoc": "^4.0.3",
     "nodemon": "^3.1.4"
   }
 }
